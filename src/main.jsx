@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import ProfileInfo from './components/ProfileInfo.jsx';
 import Skill from './components/Skill.jsx';
 import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <><ProfileInfo/></>
+        element: <><ProfileInfo/><Footer/></>
       },
       {
         path: "projects",
