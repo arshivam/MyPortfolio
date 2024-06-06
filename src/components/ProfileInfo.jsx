@@ -1,9 +1,12 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter'
+import Skill from "./Skill";
+import Experience from "./Experience";
 
 function ProfileInfo() {
   
   return (
+  <>
     <section className="profile-info  bg-blue-50 font-mono">
       <div className="w-[80%] mx-auto flex flex-col  items-center p-24 min-h-[calc(100vh-70px)]">
         <img width={200} className="m-4" src="/avatar.png" alt=""/>
@@ -26,9 +29,22 @@ function ProfileInfo() {
           expertise in front-end <br/>and back-end development, experienced in leading
           cross-functional teams
         </p>
-        <button className="bg-orange-600 px-6 py-2 text-white border border-t-0 border-r-4 border-b-4 border-l-0 border-black" type="button">Hire me</button>
+        <div className="flex gap-6">
+        <a href="mailto:shivam.armarkar007@gmail.com">
+        <button className="bg-orange-600 hover:bg-orange-400 px-10 py-2 text-white border border-t-0 border-r-4 border-b-4 border-l-0 border-black" type="button">Hire me</button>
+        </a>
+        <button className="bg-blue-900 hover:bg-blue-400 px-6 py-2 text-white border border-t-0 border-r-4 border-b-4 border-l-0 border-black" type="button">Download CV</button>
+        </div>
+       
+       
+        <div>
+        </div>
       </div>
     </section>
+    <Skill/>
+    <Experience/>
+  </>
+  
   );
 }
 
