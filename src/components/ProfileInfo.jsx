@@ -33,7 +33,10 @@ function ProfileInfo() {
         <a href="mailto:shivam.armarkar007@gmail.com">
         <button className="bg-orange-600 hover:bg-orange-400 px-10 py-2 text-white border border-t-0 border-r-4 border-b-4 border-l-0 border-black" type="button">Hire me</button>
         </a>
-        <button className="bg-blue-900 hover:bg-blue-400 px-6 py-2 text-white border border-t-0 border-r-4 border-b-4 border-l-0 border-black" type="button">Download CV</button>
+        <a  href="/Shivam_Armarkar_Resume_new2.pdf" download >
+        <button className="bg-blue-900 hover:bg-blue-400 px-6 py-2 text-white border border-t-0 border-r-4 border-b-4 border-l-0 border-black" type="button">Download CV </button>
+        </a>
+
         </div>
        
        
