@@ -9,7 +9,7 @@ function Navbar() {
           Shivam Armarkar
         </div>
       </Link>
-      <div className="flex gap-4">
+      <div className="hidden md:flex gap-4">
         <Link to="/" className="px-2">
           Skills
         </Link>
