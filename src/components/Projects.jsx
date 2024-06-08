@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section className="projects bg-blue-50">
       <div className="md:w-[80%] mx-auto flex flex-wrap gap-4 items-center p-4 md:p-24 min-h-[calc(100vh-70px)]">
-        <div className=" w-[500px] h-[350px] rounded-xl bg-blue-900 text-white">
+        <div className=" w-[500px] md:h-[350px] h-[290px] rounded-xl bg-blue-900 text-white">
           <div className="flex flex-col p-3">
             <div className=" ">
               <video className="w-full object-cover" autoPlay muted loop={true}>
@@ -16,7 +16,7 @@ function Projects() {
               <p>Tech used : html, css</p>
               <a
                 href="https://github.com/arshivam/NetFlix_Clone"
-                className="hover:underline"
+                className="underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -26,7 +26,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className=" w-[500px] h-[350px] rounded-xl bg-blue-900 text-white">
+        <div className=" w-[500px] md:h-[350px] h-[290px] rounded-xl bg-blue-900 text-white">
           <div className="flex flex-col p-3">
             <div className="">
               <video className="w-full object-cover" autoPlay muted loop={true}>
@@ -38,7 +38,7 @@ function Projects() {
               <p>Tech used : Html, javascript & Tailwind css </p>
               <a
                 href="https://github.com/arshivam/Twitter-Clone-Tailwind"
-                className="hover:underline"
+                className="underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -48,7 +48,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className=" w-[500px] h-[350px] rounded-xl bg-blue-900 text-white">
+        <div className=" w-[500px] md:h-[350px] h-[290px] rounded-xl bg-blue-900 text-white">
           <div className="flex flex-col p-3">
             <div className="">
               <img
@@ -62,7 +62,7 @@ function Projects() {
               <p>Tech used : html, css & javascript</p>
               <a
                 href="https://github.com/arshivam/Spotify-Clone"
-                className="hover:underline"
+                className="underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
